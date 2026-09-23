@@ -1,0 +1,5 @@
+hostname: pa22
+OS: Ubuntu 22.04.5 LTS (Jammy Jellyfish)
+kernel/arch: Linux pa22 5.15.0-1106-raspi #109-Ubuntu SMP PREEMPT Wed Jul 1 19:54:39 UTC 2026 aarch64
+serial port: /dev/ttyACM0 (OpenCR, crw-rw---- root:dialout)
+dialout group membership: confirmed (user pa27 in dialout group)
