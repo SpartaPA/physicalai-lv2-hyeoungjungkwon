@@ -1,0 +1,14 @@
+[12:54:25.368] OPEN /dev/ttyACM0 @ 115200 - listening 20.0s total, press reset now
+[12:54:30.692] (disconnected, reconnecting...)
+[12:54:31.982] (reconnected)
+[12:54:32.094] READY: s <Kp> <speed_deg_s|max> <angle_deg>; k/v/a set; s start; x stop. Newline.
+[12:54:32.100] Kp: any finite value; speed: positive or max (motor limits).
+[12:54:32.101] Motor velocity raw cap: 200
+[12:54:32.105] P SET Kp=0.5000, Ki=0.0000, Kd=0.0000, speed_limit_deg_s=20.000, angle_deg=90.000
+[12:54:35.298] (disconnected, reconnecting...)
+[12:54:36.588] (reconnected)
+[12:54:36.702] READY: s <Kp> <speed_deg_s|max> <angle_deg>; k/v/a set; s start; x stop. Newline.
+[12:54:36.706] Kp: any finite value; speed: positive or max (motor limits).
+[12:54:36.708] Motor velocity raw cap: 200
+[12:54:36.712] P SET Kp=0.5000, Ki=0.0000, Kd=0.0000, speed_limit_deg_s=20.000, angle_deg=90.000
+[12:54:45.414] CLOSE port

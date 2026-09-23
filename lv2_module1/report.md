@@ -14,6 +14,8 @@
 
 사전 빌드 펌웨어를 라즈베리파이에서 `opencr_ld`로 업로드했다. 업로드 로그에서 보드 인식(`Board Name : OpenCR R1.0`), flash 지우기·쓰기 성공, `CRC OK`, `[OK] Download`, `jump_to_fw`까지 확인했다 ([results/upload.log](results/upload.log)). 체크섬 일치만이 아니라 실제 업로드 도구가 끝까지 성공적으로 완료하고 펌웨어로 정상 점프한 것을 근거로 삼았다.
 
+업로드 이후 장치가 정상 준비되었다는 근거로, 리셋 버튼을 눌러 재부팅시킨 뒤 시리얼로 부팅 시퀀스를 다시 캡처했다. `READY: s <Kp> <speed_deg_s|max> <angle_deg>; ...`와 초기 설정 echo(`P SET Kp=0.5000, Ki=0.0000, Kd=0.0000, speed_limit_deg_s=20.000, angle_deg=90.000` — 스케치 기본값)까지 확인했다 ([results/부팅확인2.log](results/부팅확인2.log)).
+
 ### 실행 A 기록
 
 `s 0.5 20 10` 명령 전송 후 `START: current position = 0 deg.`와 설정 echo(`P SET Kp=0.5000, Ki=0.0000, Kd=0.0000, speed_limit_deg_s=20.000, angle_deg=10.000`)를 확인했다. 이후 100ms 주기로 측정값이 기록되었고, `x` 명령으로 수동 정지하여 `STOP: user`를 확인했다. 전체 기록은 [results/실행A.log](results/실행A.log) (98행, 목표 변경 이후 측정값 다수 확보).
