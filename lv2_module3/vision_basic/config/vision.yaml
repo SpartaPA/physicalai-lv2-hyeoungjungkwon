@@ -1,0 +1,18 @@
+# vision_node 검출 설정. 값을 바꿔 비교할 때는 이 파일을 복사해 한 값만 바꾸거나
+# 실행 중 `ros2 param set /vision_node <이름> <값>` 으로 바꾼다 (결과 JSON의 config_rev가 +1 된다).
+# 기준값 출처: 팀 프로젝트(Lv2_Monglian_Assignment) lv2_module5/config/hsv.yaml 의 2026-10-05 원기둥 실측값.
+vision_node:
+  ros__parameters:
+    image_topic: /camera/camera/color/image_raw
+
+    # ---- Mask 단계 (실험 1): cv2.inRange(hsv, lower, upper) -> open -> close ----
+    hsv_lower: [102, 120, 40]     # H 0~179, S·V 0~255
+    hsv_upper: [110, 255, 255]
+    morph_kernel: 5               # [px] 1 이하면 잡음 제거 안 함
+
+    # ---- 후보 필터 단계 (실험 2): cv2.contourArea < min_area_px 이면 탈락 ----
+    min_area_px: 100.0            # [px^2]
+
+    # ---- 목표 선택 ----
+    selection: largest            # largest | priority
+    similar_area_ratio: 0.2
