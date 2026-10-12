@@ -1,0 +1,23 @@
+# 2026-10-12T16:02:52+09:00 exp1: hsv_lower A=[102, 120, 40] B=[95, 120, 40] (ROS_DOMAIN_ID=31)
+$ ros2 param set /vision_node hsv_lower [102, 120, 40]
+Set parameter successful
+$ ros2 param get /vision_node hsv_lower
+Integer values are: [102, 120, 40]
+$ timeout 30 ros2 run vision_basic topic_snapshot --ros-args -p out_dir:=results/exp1_mask/A -p label:=exp1_A -p skip:=3
+[INFO] [1791788575.221520131] [topic_snapshot]: exp1_A: skip 3, save 1 -> /home/pa27/Git/physicalai-lv2-hyeoungjungkwon/lv2_module3/results/exp1_mask/A
+[INFO] [1791788576.012048610] [topic_snapshot]: saved /home/pa27/Git/physicalai-lv2-hyeoungjungkwon/lv2_module3/results/exp1_mask/A/exp1_A_* stamp 1791788575.986846693 detected=True passed=2 rejected=0 config={'hsv_lower': [102, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 100.0, 'selection': 'largest'}
+captured results/exp1_mask/A/exp1_A_rqt_image_raw.png 1281 980 1196 72
+captured results/exp1_mask/A/exp1_A_rqt_mask.png 1281 980 1196 72
+captured results/exp1_mask/A/exp1_A_rqt_overlay.png 1281 980 1196 72
+$ ros2 param set /vision_node hsv_lower [95, 120, 40]
+Set parameter successful
+$ ros2 param get /vision_node hsv_lower
+Integer values are: [95, 120, 40]
+$ timeout 30 ros2 run vision_basic topic_snapshot --ros-args -p out_dir:=results/exp1_mask/B -p label:=exp1_B -p skip:=3
+[INFO] [1791788597.121154582] [topic_snapshot]: exp1_B: skip 3, save 1 -> /home/pa27/Git/physicalai-lv2-hyeoungjungkwon/lv2_module3/results/exp1_mask/B
+[INFO] [1791788597.813829299] [topic_snapshot]: saved /home/pa27/Git/physicalai-lv2-hyeoungjungkwon/lv2_module3/results/exp1_mask/B/exp1_B_* stamp 1791788597.786719123 detected=True passed=6 rejected=7 config={'hsv_lower': [95, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 100.0, 'selection': 'largest'}
+captured results/exp1_mask/B/exp1_B_rqt_image_raw.png 1281 980 1196 72
+captured results/exp1_mask/B/exp1_B_rqt_mask.png 1281 980 1196 72
+captured results/exp1_mask/B/exp1_B_rqt_overlay.png 1281 980 1196 72
+$ ros2 param set /vision_node hsv_lower [102, 120, 40]
+Set parameter successful

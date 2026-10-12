@@ -1,0 +1,27 @@
+$ ros2 interface show sensor_msgs/msg/Image
+std_msgs/Header header # Header timestamp should be acquisition time of image
+	builtin_interfaces/Time stamp
+		int32 sec
+		uint32 nanosec
+	string frame_id
+uint32 height                # image height, that is, number of rows
+uint32 width                 # image width, that is, number of columns
+string encoding       # Encoding of pixels -- channel meaning, ordering, size
+uint8 is_bigendian    # is this data bigendian?
+uint32 step           # Full row length in bytes
+uint8[] data          # actual matrix data, size is (step * rows)
+
+$ ros2 interface show geometry_msgs/msg/PointStamped
+std_msgs/Header header
+	builtin_interfaces/Time stamp
+		int32 sec
+		uint32 nanosec
+	string frame_id
+Point point
+	float64 x
+	float64 y
+	float64 z
+
+$ ros2 interface show std_msgs/msg/String
+string data
+

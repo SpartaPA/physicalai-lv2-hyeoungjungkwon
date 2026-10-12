@@ -1,0 +1,15 @@
+# 2026-10-12T15:55:15+09:00 입력: 고정 이미지 results/input/camera_scene_raw.png (image_file_publisher 5 Hz), ROS_DOMAIN_ID=31 LOCALHOST
+$ ros2 node list
+/image_file_publisher
+/rqt_gui_cpp_node_75394
+/rqt_gui_cpp_node_75395
+/vision_node
+
+$ ros2 topic list -t
+/camera/camera/color/image_raw [sensor_msgs/msg/Image]
+/parameter_events [rcl_interfaces/msg/ParameterEvent]
+/rosout [rcl_interfaces/msg/Log]
+/vision/detections [std_msgs/msg/String]
+/vision/mask [sensor_msgs/msg/Image]
+/vision/overlay [sensor_msgs/msg/Image]
+/vision/target [geometry_msgs/msg/PointStamped]

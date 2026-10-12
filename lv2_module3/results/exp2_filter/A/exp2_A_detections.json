@@ -1,0 +1,72 @@
+{
+  "stamp": {
+    "sec": 1791788626,
+    "nanosec": 186899004
+  },
+  "frame_id": "camera_color_optical_frame",
+  "seq": 2619,
+  "width": 640,
+  "height": 480,
+  "encoding": "rgb8",
+  "config_rev": 7,
+  "config": {
+    "hsv_lower": [
+      102,
+      120,
+      40
+    ],
+    "hsv_upper": [
+      110,
+      255,
+      255
+    ],
+    "morph_kernel": 5,
+    "min_area_px": 100.0,
+    "selection": "largest"
+  },
+  "mask_pixels": 11278,
+  "contours_total": 2,
+  "passed": [
+    {
+      "index": 0,
+      "area_px": 7325.5,
+      "cx": 352.2,
+      "cy": 287.3,
+      "bbox": [
+        320,
+        223,
+        67,
+        131
+      ]
+    },
+    {
+      "index": 1,
+      "area_px": 3773.0,
+      "cx": 431.6,
+      "cy": 194.2,
+      "bbox": [
+        392,
+        164,
+        74,
+        76
+      ]
+    }
+  ],
+  "rejected": [],
+  "detected": true,
+  "target": {
+    "index": 0,
+    "area_px": 7325.5,
+    "cx": 352.2,
+    "cy": 287.3,
+    "bbox": [
+      320,
+      223,
+      67,
+      131
+    ],
+    "ex": 0.1005,
+    "ey": 0.1969,
+    "area_ratio": 0.02385
+  }
+}

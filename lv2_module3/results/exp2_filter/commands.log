@@ -1,0 +1,23 @@
+# 2026-10-12T16:03:42+09:00 exp2: min_area_px A=100.0 B=4000.0 (ROS_DOMAIN_ID=31)
+$ ros2 param set /vision_node min_area_px 100.0
+Set parameter successful
+$ ros2 param get /vision_node min_area_px
+Double value is: 100.0
+$ timeout 30 ros2 run vision_basic topic_snapshot --ros-args -p out_dir:=results/exp2_filter/A -p label:=exp2_A -p skip:=3
+[INFO] [1791788625.403486897] [topic_snapshot]: exp2_A: skip 3, save 1 -> /home/pa27/Git/physicalai-lv2-hyeoungjungkwon/lv2_module3/results/exp2_filter/A
+[INFO] [1791788626.211805279] [topic_snapshot]: saved /home/pa27/Git/physicalai-lv2-hyeoungjungkwon/lv2_module3/results/exp2_filter/A/exp2_A_* stamp 1791788626.186899004 detected=True passed=2 rejected=0 config={'hsv_lower': [102, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 100.0, 'selection': 'largest'}
+captured results/exp2_filter/A/exp2_A_rqt_image_raw.png 1281 980 1196 72
+captured results/exp2_filter/A/exp2_A_rqt_mask.png 1281 980 1196 72
+captured results/exp2_filter/A/exp2_A_rqt_overlay.png 1281 980 1196 72
+$ ros2 param set /vision_node min_area_px 4000.0
+Set parameter successful
+$ ros2 param get /vision_node min_area_px
+Double value is: 4000.0
+$ timeout 30 ros2 run vision_basic topic_snapshot --ros-args -p out_dir:=results/exp2_filter/B -p label:=exp2_B -p skip:=3
+[INFO] [1791788647.318944246] [topic_snapshot]: exp2_B: skip 3, save 1 -> /home/pa27/Git/physicalai-lv2-hyeoungjungkwon/lv2_module3/results/exp2_filter/B
+[INFO] [1791788648.015013201] [topic_snapshot]: saved /home/pa27/Git/physicalai-lv2-hyeoungjungkwon/lv2_module3/results/exp2_filter/B/exp2_B_* stamp 1791788647.986881723 detected=True passed=1 rejected=1 config={'hsv_lower': [102, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 4000.0, 'selection': 'largest'}
+captured results/exp2_filter/B/exp2_B_rqt_image_raw.png 1281 980 1196 72
+captured results/exp2_filter/B/exp2_B_rqt_mask.png 1281 980 1196 72
+captured results/exp2_filter/B/exp2_B_rqt_overlay.png 1281 980 1196 72
+$ ros2 param set /vision_node min_area_px 100.0
+Set parameter successful

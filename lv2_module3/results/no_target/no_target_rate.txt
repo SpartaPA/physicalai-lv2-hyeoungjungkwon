@@ -1,0 +1,6 @@
+$ ros2 topic hz /camera/camera/color/image_raw
+average rate: 29.991
+	min: 0.031s max: 0.035s std dev: 0.00051s window: 149
+$ ros2 topic hz /vision/target
+average rate: 29.978
+	min: 0.029s max: 0.037s std dev: 0.00133s window: 149

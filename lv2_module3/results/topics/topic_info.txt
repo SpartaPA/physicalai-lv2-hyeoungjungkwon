@@ -1,0 +1,160 @@
+$ ros2 topic info /camera/camera/color/image_raw --verbose
+Type: sensor_msgs/msg/Image
+
+Publisher count: 1
+
+Node name: image_file_publisher
+Node namespace: /
+Topic type: sensor_msgs/msg/Image
+Topic type hash: RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47
+Endpoint type: PUBLISHER
+GID: 01.10.3d.58.6b.f0.f8.38.e9.6c.37.b9.00.00.28.03
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): KEEP_LAST (1)
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: vision_node
+Node namespace: /
+Topic type: sensor_msgs/msg/Image
+Topic type hash: RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47
+Endpoint type: SUBSCRIPTION
+GID: 01.10.a5.f1.86.5e.d2.88.2c.8a.c9.b1.00.00.28.04
+QoS profile:
+  Reliability: BEST_EFFORT
+  History (Depth): KEEP_LAST (1)
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+
+$ ros2 topic info /vision/mask --verbose
+Type: sensor_msgs/msg/Image
+
+Publisher count: 1
+
+Node name: vision_node
+Node namespace: /
+Topic type: sensor_msgs/msg/Image
+Topic type hash: RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47
+Endpoint type: PUBLISHER
+GID: 01.10.a5.f1.86.5e.d2.88.2c.8a.c9.b1.00.00.2a.03
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): KEEP_LAST (1)
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: rqt_gui_cpp_node_75395
+Node namespace: /
+Topic type: sensor_msgs/msg/Image
+Topic type hash: RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47
+Endpoint type: SUBSCRIPTION
+GID: 01.10.ed.2c.09.c9.f7.b8.f9.8d.5a.7a.00.00.28.04
+QoS profile:
+  Reliability: BEST_EFFORT
+  History (Depth): KEEP_LAST (5)
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+
+$ ros2 topic info /vision/overlay --verbose
+Type: sensor_msgs/msg/Image
+
+Publisher count: 1
+
+Node name: vision_node
+Node namespace: /
+Topic type: sensor_msgs/msg/Image
+Topic type hash: RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47
+Endpoint type: PUBLISHER
+GID: 01.10.a5.f1.86.5e.d2.88.2c.8a.c9.b1.00.00.2c.03
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): KEEP_LAST (1)
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: rqt_gui_cpp_node_75394
+Node namespace: /
+Topic type: sensor_msgs/msg/Image
+Topic type hash: RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47
+Endpoint type: SUBSCRIPTION
+GID: 01.10.4d.d6.7c.2c.93.93.57.db.93.bd.00.00.28.04
+QoS profile:
+  Reliability: BEST_EFFORT
+  History (Depth): KEEP_LAST (5)
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+
+$ ros2 topic info /vision/target --verbose
+Type: geometry_msgs/msg/PointStamped
+
+Publisher count: 1
+
+Node name: vision_node
+Node namespace: /
+Topic type: geometry_msgs/msg/PointStamped
+Topic type hash: RIHS01_4c0296af86e01e562e9e0405d138a01537247580076c58ea38d7923ac1045897
+Endpoint type: PUBLISHER
+GID: 01.10.a5.f1.86.5e.d2.88.2c.8a.c9.b1.00.00.2e.03
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): KEEP_LAST (1)
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 0
+
+
+$ ros2 topic info /vision/detections --verbose
+Type: std_msgs/msg/String
+
+Publisher count: 1
+
+Node name: vision_node
+Node namespace: /
+Topic type: std_msgs/msg/String
+Topic type hash: RIHS01_df668c740482bbd48fb39d76a70dfd4bd59db1288021743503259e948f6b1a18
+Endpoint type: PUBLISHER
+GID: 01.10.a5.f1.86.5e.d2.88.2c.8a.c9.b1.00.00.30.03
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): KEEP_LAST (1)
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 0
+
+

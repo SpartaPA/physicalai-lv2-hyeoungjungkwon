@@ -1,0 +1,13 @@
+# 2026-10-12T15:53:25+09:00 입력: D435 실시간 (source:=camera), ROS_DOMAIN_ID=31 LOCALHOST
+$ ros2 topic list -t
+/camera/camera/color/camera_info [sensor_msgs/msg/CameraInfo]
+/camera/camera/color/image_raw [sensor_msgs/msg/Image]
+/camera/camera/color/metadata [realsense2_camera_msgs/msg/Metadata]
+/camera/camera/extrinsics/depth_to_color [realsense2_camera_msgs/msg/Extrinsics]
+/parameter_events [rcl_interfaces/msg/ParameterEvent]
+/rosout [rcl_interfaces/msg/Log]
+/tf_static [tf2_msgs/msg/TFMessage]
+/vision/detections [std_msgs/msg/String]
+/vision/mask [sensor_msgs/msg/Image]
+/vision/overlay [sensor_msgs/msg/Image]
+/vision/target [geometry_msgs/msg/PointStamped]

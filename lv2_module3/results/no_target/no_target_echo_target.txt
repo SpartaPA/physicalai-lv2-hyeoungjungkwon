@@ -1,0 +1,14 @@
+$ ros2 topic echo /vision/target --once
+header:
+  stamp:
+    sec: 1791788870
+    nanosec: 957791748
+  frame_id: camera_color_optical_frame
+point:
+  x: 0.0
+  y: 0.0
+  z: 0.0
+---
+$ ros2 topic echo /vision/detections --once --field data
+{"stamp": {"sec": 1791788871, "nanosec": 958561523}, "frame_id": "camera_color_optical_frame", "seq": 5413, "width": 640, "height": 480, "encoding": "rgb8", "config_rev": 0, "config": {"hsv_lower": [102, 120, 40], "hsv_upper": [110, 255, 255], "morph_kernel": 5, "min_area_px": 100.0, "selection": "largest"}, "mask_pixels": 0, "contours_total": 0, "passed": [], "rejected": [], "detected": false, "target": null}
+---

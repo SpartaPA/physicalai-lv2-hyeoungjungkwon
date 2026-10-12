@@ -1,0 +1,2 @@
+stamp 1791788822.822465088 frame_id camera_color_optical_frame
+x(ex) 0.0000  y(ey) 0.0000  z(area_ratio) 0.00000
