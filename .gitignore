@@ -71,3 +71,7 @@ ros2_ws/log
 .vscode/
 .cursor/
 .mcp.json
+
+# Python
+__pycache__/
+*.pyc
