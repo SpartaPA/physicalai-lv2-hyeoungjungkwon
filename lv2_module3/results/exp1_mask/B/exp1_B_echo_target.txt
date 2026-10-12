@@ -1,0 +1,11 @@
+$ ros2 topic echo /vision/target --once
+header:
+  stamp:
+    sec: 1791788616
+    nanosec: 186838922
+  frame_id: camera_color_optical_frame
+point:
+  x: -0.9677048120648719
+  y: 0.17346179256039798
+  z: 0.026962890625
+---
