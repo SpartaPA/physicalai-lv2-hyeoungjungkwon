@@ -1,0 +1,25 @@
+[INFO] [launch]: All log files can be found below /home/pa27/.ros/log/2026-10-12-15-55-01-961682-pa27-Legion-Pro-5-16IAX10-83404
+[INFO] [launch]: Default logging verbosity is set to INFO
+/opt/ros/lyrical/lib/python3.12/site-packages/launch/conditions/launch_configuration_equals.py:53: UserWarning: The 'LaunchConfigurationEquals' and 'LaunchConfigurationNotEquals' Conditions are  deprecated. Use the 'EqualsSubstitution' and 'NotEqualsSubstitution' substitutions instead! E.g.:
+  IfCondition(
+  	EqualsSubstitution(LaunchConfiguration('some_launch_arg'), "some_equality_check")
+  )
+  warnings.warn(
+[INFO] [vision_node-1]: process started with pid [83430]
+[INFO] [image_file_publisher-2]: process started with pid [83431]
+[image_file_publisher-2] [INFO] [1791788102.392968520] [image_file_publisher]: /home/pa27/Git/physicalai-lv2-hyeoungjungkwon/lv2_module3/results/input/camera_scene_raw.png (640x480 rgb8) -> /camera/camera/color/image_raw @ 5.0 Hz
+[vision_node-1] [INFO] [1791788102.417127304] [vision_node]: input=/camera/camera/color/image_raw config={'hsv_lower': [102, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 100.0, 'selection': 'largest'}
+[vision_node-1] [INFO] [1791788512.022476662] [vision_node]: 설정 적용 rev=1: {'hsv_lower': [102, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 100.0, 'selection': 'largest'}
+[vision_node-1] [INFO] [1791788533.575866676] [vision_node]: 설정 적용 rev=2: {'hsv_lower': [95, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 100.0, 'selection': 'largest'}
+[vision_node-1] [INFO] [1791788555.379096452] [vision_node]: 설정 적용 rev=3: {'hsv_lower': [102, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 100.0, 'selection': 'largest'}
+[vision_node-1] [INFO] [1791788573.480612316] [vision_node]: 설정 적용 rev=4: {'hsv_lower': [102, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 100.0, 'selection': 'largest'}
+[vision_node-1] [INFO] [1791788595.378597757] [vision_node]: 설정 적용 rev=5: {'hsv_lower': [95, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 100.0, 'selection': 'largest'}
+[vision_node-1] [INFO] [1791788617.173510196] [vision_node]: 설정 적용 rev=6: {'hsv_lower': [102, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 100.0, 'selection': 'largest'}
+[vision_node-1] [INFO] [1791788623.644737886] [vision_node]: 설정 적용 rev=7: {'hsv_lower': [102, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 100.0, 'selection': 'largest'}
+[vision_node-1] [INFO] [1791788645.573720129] [vision_node]: 설정 적용 rev=8: {'hsv_lower': [102, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 4000.0, 'selection': 'largest'}
+[vision_node-1] [INFO] [1791788667.376260787] [vision_node]: 설정 적용 rev=9: {'hsv_lower': [102, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 100.0, 'selection': 'largest'}
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [image_file_publisher-2]: sending signal 'SIGINT' to process[image_file_publisher-2]
+[INFO] [vision_node-1]: sending signal 'SIGINT' to process[vision_node-1]
+[INFO] [vision_node-1]: process has finished cleanly [pid 83430]
+[INFO] [image_file_publisher-2]: process has finished cleanly [pid 83431]

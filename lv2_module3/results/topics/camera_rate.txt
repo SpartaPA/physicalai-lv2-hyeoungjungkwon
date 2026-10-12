@@ -1,0 +1,1 @@
+$ ros2 topic hz /camera/camera/color/image_raw
