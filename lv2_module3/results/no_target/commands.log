@@ -1,0 +1,28 @@
+# 2026-10-12T16:07:01+09:00 목표 없음: D435 실시간 (source:=camera), 기준 설정
+$ ros2 param dump /vision_node
+/vision_node:
+  ros__parameters:
+    hsv_lower:
+    - 102
+    - 120
+    - 40
+    hsv_upper:
+    - 110
+    - 255
+    - 255
+    image_topic: /camera/camera/color/image_raw
+    min_area_px: 100.0
+    morph_kernel: 5
+    selection: largest
+    similar_area_ratio: 0.2
+    start_type_description_service: true
+    use_sim_time: false
+
+$ timeout 30 ros2 run vision_basic topic_snapshot --ros-args -p out_dir:=results/no_target -p label:=no_target -p count:=3 -p skip:=5
+[INFO] [1791788822.606488719] [topic_snapshot]: no_target: skip 5, save 3 -> /home/pa27/Git/physicalai-lv2-hyeoungjungkwon/lv2_module3/results/no_target
+[INFO] [1791788822.813812744] [topic_snapshot]: saved /home/pa27/Git/physicalai-lv2-hyeoungjungkwon/lv2_module3/results/no_target/no_target_01_* stamp 1791788822.755749023 detected=False passed=0 rejected=0 config={'hsv_lower': [102, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 100.0, 'selection': 'largest'}
+[INFO] [1791788822.840996882] [topic_snapshot]: saved /home/pa27/Git/physicalai-lv2-hyeoungjungkwon/lv2_module3/results/no_target/no_target_02_* stamp 1791788822.789107178 detected=False passed=0 rejected=0 config={'hsv_lower': [102, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 100.0, 'selection': 'largest'}
+[INFO] [1791788822.873819571] [topic_snapshot]: saved /home/pa27/Git/physicalai-lv2-hyeoungjungkwon/lv2_module3/results/no_target/no_target_03_* stamp 1791788822.822465088 detected=False passed=0 rejected=0 config={'hsv_lower': [102, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 100.0, 'selection': 'largest'}
+captured results/no_target/no_target_rqt_image_raw.png 1281 980 1196 72
+captured results/no_target/no_target_rqt_mask.png 1281 980 1196 72
+captured results/no_target/no_target_rqt_overlay.png 1281 980 1196 72

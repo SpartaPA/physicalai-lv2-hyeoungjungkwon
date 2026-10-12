@@ -1,0 +1,74 @@
+[INFO] [launch]: All log files can be found below /home/pa27/.ros/log/2026-10-12-16-04-50-647423-pa27-Legion-Pro-5-16IAX10-90322
+[INFO] [launch]: Default logging verbosity is set to INFO
+/opt/ros/lyrical/lib/python3.12/site-packages/launch/conditions/launch_configuration_equals.py:53: UserWarning: The 'LaunchConfigurationEquals' and 'LaunchConfigurationNotEquals' Conditions are  deprecated. Use the 'EqualsSubstitution' and 'NotEqualsSubstitution' substitutions instead! E.g.:
+  IfCondition(
+  	EqualsSubstitution(LaunchConfiguration('some_launch_arg'), "some_equality_check")
+  )
+  warnings.warn(
+[33mWarning: Parameter 'source' is not supported. Supported parameters are:
+['accel_fps', 'accelerate_gpu_with_glsl', 'align_depth.enable', 'angular_velocity_cov', 'base_frame_id', 'camera_name', 'camera_namespace', 'clip_distance', 'colorizer.enable', 'config_file', 'decimation_filter.enable', 'decimation_filter.filter_magnitude', 'depth_mapping_camera.labeled_point_cloud_profile', 'depth_mapping_camera.occupancy_profile', 'depth_module.color_format', 'depth_module.color_profile', 'depth_module.depth_format', 'depth_module.depth_profile', 'depth_module.enable_auto_exposure', 'depth_module.exposure', 'depth_module.exposure.1', 'depth_module.exposure.2', 'depth_module.gain', 'depth_module.gain.1', 'depth_module.gain.2', 'depth_module.hdr_enabled', 'depth_module.infra1_format', 'depth_module.infra2_format', 'depth_module.infra_format', 'depth_module.infra_profile', 'depth_module.inter_cam_sync_mode', 'device_type', 'diagnostics_period', 'disparity_filter.enable', 'enable_accel', 'enable_color', 'enable_depth', 'enable_gyro', 'enable_infra', 'enable_infra1', 'enable_infra2', 'enable_labeled_point_cloud', 'enable_motion', 'enable_occupancy', 'enable_rgbd', 'enable_safety', 'enable_sync', 'gyro_fps', 'hdr_merge.enable', 'hole_filling_filter.enable', 'initial_reset', 'json_file_path', 'linear_accel_cov', 'log_level', 'motion_fps', 'output', 'pointcloud.allow_no_texture_points', 'pointcloud.enable', 'pointcloud.ordered_pc', 'pointcloud.stream_filter', 'pointcloud.stream_index_filter', 'publish_tf', 'reconnect_timeout', 'rgb_camera.color_format', 'rgb_camera.color_profile', 'rgb_camera.enable_auto_exposure', 'rosbag_filename', 'rosbag_loop', 'rotation_filter.enable', 'rotation_filter.rotation', 'safety_camera.safety_mode', 'serial_no', 'spatial_filter.enable', 'temporal_filter.enable', 'tf_prefix', 'tf_publish_rate', 'unite_imu_method', 'usb_port_id', 'wait_for_device_timeout'][0m
+[33mWarning: Parameter 'params_file' is not supported. Supported parameters are:
+['accel_fps', 'accelerate_gpu_with_glsl', 'align_depth.enable', 'angular_velocity_cov', 'base_frame_id', 'camera_name', 'camera_namespace', 'clip_distance', 'colorizer.enable', 'config_file', 'decimation_filter.enable', 'decimation_filter.filter_magnitude', 'depth_mapping_camera.labeled_point_cloud_profile', 'depth_mapping_camera.occupancy_profile', 'depth_module.color_format', 'depth_module.color_profile', 'depth_module.depth_format', 'depth_module.depth_profile', 'depth_module.enable_auto_exposure', 'depth_module.exposure', 'depth_module.exposure.1', 'depth_module.exposure.2', 'depth_module.gain', 'depth_module.gain.1', 'depth_module.gain.2', 'depth_module.hdr_enabled', 'depth_module.infra1_format', 'depth_module.infra2_format', 'depth_module.infra_format', 'depth_module.infra_profile', 'depth_module.inter_cam_sync_mode', 'device_type', 'diagnostics_period', 'disparity_filter.enable', 'enable_accel', 'enable_color', 'enable_depth', 'enable_gyro', 'enable_infra', 'enable_infra1', 'enable_infra2', 'enable_labeled_point_cloud', 'enable_motion', 'enable_occupancy', 'enable_rgbd', 'enable_safety', 'enable_sync', 'gyro_fps', 'hdr_merge.enable', 'hole_filling_filter.enable', 'initial_reset', 'json_file_path', 'linear_accel_cov', 'log_level', 'motion_fps', 'output', 'pointcloud.allow_no_texture_points', 'pointcloud.enable', 'pointcloud.ordered_pc', 'pointcloud.stream_filter', 'pointcloud.stream_index_filter', 'publish_tf', 'reconnect_timeout', 'rgb_camera.color_format', 'rgb_camera.color_profile', 'rgb_camera.enable_auto_exposure', 'rosbag_filename', 'rosbag_loop', 'rotation_filter.enable', 'rotation_filter.rotation', 'safety_camera.safety_mode', 'serial_no', 'spatial_filter.enable', 'temporal_filter.enable', 'tf_prefix', 'tf_publish_rate', 'unite_imu_method', 'usb_port_id', 'wait_for_device_timeout'][0m
+[33mWarning: Parameter 'image_path' is not supported. Supported parameters are:
+['accel_fps', 'accelerate_gpu_with_glsl', 'align_depth.enable', 'angular_velocity_cov', 'base_frame_id', 'camera_name', 'camera_namespace', 'clip_distance', 'colorizer.enable', 'config_file', 'decimation_filter.enable', 'decimation_filter.filter_magnitude', 'depth_mapping_camera.labeled_point_cloud_profile', 'depth_mapping_camera.occupancy_profile', 'depth_module.color_format', 'depth_module.color_profile', 'depth_module.depth_format', 'depth_module.depth_profile', 'depth_module.enable_auto_exposure', 'depth_module.exposure', 'depth_module.exposure.1', 'depth_module.exposure.2', 'depth_module.gain', 'depth_module.gain.1', 'depth_module.gain.2', 'depth_module.hdr_enabled', 'depth_module.infra1_format', 'depth_module.infra2_format', 'depth_module.infra_format', 'depth_module.infra_profile', 'depth_module.inter_cam_sync_mode', 'device_type', 'diagnostics_period', 'disparity_filter.enable', 'enable_accel', 'enable_color', 'enable_depth', 'enable_gyro', 'enable_infra', 'enable_infra1', 'enable_infra2', 'enable_labeled_point_cloud', 'enable_motion', 'enable_occupancy', 'enable_rgbd', 'enable_safety', 'enable_sync', 'gyro_fps', 'hdr_merge.enable', 'hole_filling_filter.enable', 'initial_reset', 'json_file_path', 'linear_accel_cov', 'log_level', 'motion_fps', 'output', 'pointcloud.allow_no_texture_points', 'pointcloud.enable', 'pointcloud.ordered_pc', 'pointcloud.stream_filter', 'pointcloud.stream_index_filter', 'publish_tf', 'reconnect_timeout', 'rgb_camera.color_format', 'rgb_camera.color_profile', 'rgb_camera.enable_auto_exposure', 'rosbag_filename', 'rosbag_loop', 'rotation_filter.enable', 'rotation_filter.rotation', 'safety_camera.safety_mode', 'serial_no', 'spatial_filter.enable', 'temporal_filter.enable', 'tf_prefix', 'tf_publish_rate', 'unite_imu_method', 'usb_port_id', 'wait_for_device_timeout'][0m
+[33mWarning: Parameter 'rate_hz' is not supported. Supported parameters are:
+['accel_fps', 'accelerate_gpu_with_glsl', 'align_depth.enable', 'angular_velocity_cov', 'base_frame_id', 'camera_name', 'camera_namespace', 'clip_distance', 'colorizer.enable', 'config_file', 'decimation_filter.enable', 'decimation_filter.filter_magnitude', 'depth_mapping_camera.labeled_point_cloud_profile', 'depth_mapping_camera.occupancy_profile', 'depth_module.color_format', 'depth_module.color_profile', 'depth_module.depth_format', 'depth_module.depth_profile', 'depth_module.enable_auto_exposure', 'depth_module.exposure', 'depth_module.exposure.1', 'depth_module.exposure.2', 'depth_module.gain', 'depth_module.gain.1', 'depth_module.gain.2', 'depth_module.hdr_enabled', 'depth_module.infra1_format', 'depth_module.infra2_format', 'depth_module.infra_format', 'depth_module.infra_profile', 'depth_module.inter_cam_sync_mode', 'device_type', 'diagnostics_period', 'disparity_filter.enable', 'enable_accel', 'enable_color', 'enable_depth', 'enable_gyro', 'enable_infra', 'enable_infra1', 'enable_infra2', 'enable_labeled_point_cloud', 'enable_motion', 'enable_occupancy', 'enable_rgbd', 'enable_safety', 'enable_sync', 'gyro_fps', 'hdr_merge.enable', 'hole_filling_filter.enable', 'initial_reset', 'json_file_path', 'linear_accel_cov', 'log_level', 'motion_fps', 'output', 'pointcloud.allow_no_texture_points', 'pointcloud.enable', 'pointcloud.ordered_pc', 'pointcloud.stream_filter', 'pointcloud.stream_index_filter', 'publish_tf', 'reconnect_timeout', 'rgb_camera.color_format', 'rgb_camera.color_profile', 'rgb_camera.enable_auto_exposure', 'rosbag_filename', 'rosbag_loop', 'rotation_filter.enable', 'rotation_filter.rotation', 'safety_camera.safety_mode', 'serial_no', 'spatial_filter.enable', 'temporal_filter.enable', 'tf_prefix', 'tf_publish_rate', 'unite_imu_method', 'usb_port_id', 'wait_for_device_timeout'][0m
+[INFO] [launch.user]: 🚀 Launching as Normal ROS Node
+[INFO] [realsense2_camera_node-2]: process started with pid [90346]
+[INFO] [vision_node-1]: process started with pid [90345]
+[realsense2_camera_node-2] [0m[INFO] [1791788690.742070005] [camera.camera]: RealSense ROS v4.57.7[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788690.742110590] [camera.camera]: Built with LibRealSense v2.57.7[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788690.742116094] [camera.camera]: Running with LibRealSense v2.57.7[0m
+[realsense2_camera_node-2]  12/10 16:04:50,742 ERROR [129634586846912] (context.cpp:41) No valid configuration file found at : /home/pa27/.realsense-config.json loading defaults
+[realsense2_camera_node-2] [0m[INFO] [1791788690.926114612] [camera.camera]: Device with serial number 261322071510 was found.
+[realsense2_camera_node-2] [0m
+[realsense2_camera_node-2] [0m[INFO] [1791788690.926166773] [camera.camera]: Device with physical ID /sys/devices/pci0000:80/0000:80:14.0/usb4/4-4/4-4:1.0/video4linux/video2 was found.[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788690.926171676] [camera.camera]: Device with name Intel RealSense D435 was found.[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788690.926254304] [camera.camera]: Device with port number 4-4 was found.[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788690.926258174] [camera.camera]: Device USB type: 3.2[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788690.926291182] [camera.camera]: getParameters...[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788690.926380221] [camera.camera]: JSON file is not provided[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788690.926383773] [camera.camera]: Device Name: Intel RealSense D435[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788690.926386951] [camera.camera]: Device Serial No: 261322071510[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788690.926389506] [camera.camera]: Device physical port: /sys/devices/pci0000:80/0000:80:14.0/usb4/4-4/4-4:1.0/video4linux/video2[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788690.926392504] [camera.camera]: Device FW version: 5.17.0.10[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788690.926394900] [camera.camera]: Device Product ID: 0x0B07[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788690.926397145] [camera.camera]: Sync Mode: Off[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788691.003325029] [camera.camera]: Set ROS param depth_module.depth_profile to default: 848x480x30[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788691.003473867] [camera.camera]: Set ROS param depth_module.infra_profile to default: 848x480x30[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788691.006209468] [camera.camera]: Stopping Sensor: RGB Camera[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788691.009198040] [camera.camera]: Starting Sensor: RGB Camera[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788691.011140263] [camera.camera]: Open profile: stream_type: Color(0), Format: RGB8, Width: 640, Height: 480, FPS: 30[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788691.015585885] [camera.camera]: RealSense Node Is Up![0m
+[vision_node-1] [INFO] [1791788691.115100955] [vision_node]: input=/camera/camera/color/image_raw config={'hsv_lower': [102, 120, 40], 'hsv_upper': [110, 255, 255], 'morph_kernel': 5, 'min_area_px': 100.0, 'selection': 'largest'}
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [realsense2_camera_node-2]: sending signal 'SIGINT' to process[realsense2_camera_node-2]
+[INFO] [vision_node-1]: sending signal 'SIGINT' to process[vision_node-1]
+[realsense2_camera_node-2] [0m[INFO] [1791788882.133115490] [rclcpp]: signal_handler(signum=2)[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788882.133719402] [camera.camera]: Stop Sensor: RGB Camera[0m
+[realsense2_camera_node-2] [0m[INFO] [1791788882.133732058] [camera.camera]: Close Sensor. [0m
+[vision_node-1] Traceback (most recent call last):
+[vision_node-1]   File "/home/pa27/m3_ws/install/vision_basic/lib/vision_basic/vision_node", line 33, in <module>
+[vision_node-1]     sys.exit(load_entry_point('vision-basic', 'console_scripts', 'vision_node')())
+[vision_node-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[vision_node-1]   File "/home/pa27/m3_ws/build/vision_basic/vision_basic/nodes/vision_node.py", line 85, in main
+[vision_node-1]     rclpy.spin(node)
+[vision_node-1]   File "/opt/ros/lyrical/lib/python3.12/site-packages/rclpy/__init__.py", line 324, in spin
+[vision_node-1]     executor.spin_once()
+[vision_node-1]   File "/opt/ros/lyrical/lib/python3.12/site-packages/rclpy/executors.py", line 1020, in spin_once
+[vision_node-1]     self._spin_once_impl(timeout_sec)
+[vision_node-1]   File "/opt/ros/lyrical/lib/python3.12/site-packages/rclpy/executors.py", line 1012, in _spin_once_impl
+[vision_node-1]     raise exception
+[vision_node-1]   File "/opt/ros/lyrical/lib/python3.12/site-packages/rclpy/task.py", line 343, in _execute_coroutine_step
+[vision_node-1]     result = coro.send(None)
+[vision_node-1]              ^^^^^^^^^^^^^^^
+[vision_node-1]   File "/opt/ros/lyrical/lib/python3.12/site-packages/rclpy/executors.py", line 662, in handler
+[vision_node-1]     call_coroutine = take_from_wait_list(entity)
+[vision_node-1]                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[vision_node-1]   File "/opt/ros/lyrical/lib/python3.12/site-packages/rclpy/executors.py", line 540, in _take_subscription
+[vision_node-1]     msg_info = sub.handle.take_message(sub.msg_type, sub.raw)
+[vision_node-1]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[vision_node-1] RuntimeError: Unable to convert call argument '0' to Python object (#define PYBIND11_DETAILED_ERROR_MESSAGES or compile in debug mode for details)
+[ERROR] [vision_node-1]: process has died [pid 90345, exit code 1, cmd '/home/pa27/m3_ws/install/vision_basic/lib/vision_basic/vision_node --ros-args -r __node:=vision_node --params-file /home/pa27/m3_ws/install/vision_basic/share/vision_basic/config/vision.yaml'].
+[realsense2_camera_node-2] [0m[INFO] [1791788882.557495174] [camera.camera]: Close Sensor - Done. [0m
+[INFO] [realsense2_camera_node-2]: process has finished cleanly [pid 90346]

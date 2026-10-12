@@ -1,0 +1,33 @@
+{
+  "stamp": {
+    "sec": 1791788822,
+    "nanosec": 822465088
+  },
+  "frame_id": "camera_color_optical_frame",
+  "seq": 3940,
+  "width": 640,
+  "height": 480,
+  "encoding": "rgb8",
+  "config_rev": 0,
+  "config": {
+    "hsv_lower": [
+      102,
+      120,
+      40
+    ],
+    "hsv_upper": [
+      110,
+      255,
+      255
+    ],
+    "morph_kernel": 5,
+    "min_area_px": 100.0,
+    "selection": "largest"
+  },
+  "mask_pixels": 0,
+  "contours_total": 0,
+  "passed": [],
+  "rejected": [],
+  "detected": false,
+  "target": null
+}
