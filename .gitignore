@@ -66,3 +66,8 @@ ros2_ws/log
 # ROS specific
 # Need to check if this need to submit
 *.bag
+
+# Editor / IDE / MCP settings (any directory)
+.vscode/
+.cursor/
+.mcp.json
